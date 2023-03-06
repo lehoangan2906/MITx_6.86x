@@ -10,7 +10,7 @@ $\newcommand\array[1]{\begin{bmatrix}#1\end{bmatrix}}$ [[MITx 6.86x Notes Index]
 
 Norm: Answer the question how big is a vector
 
-- $\|X\|_l \equiv l-NORM := (\sum_{i=1}^{size(X)} x_i^l)^{(1/l)}$
+- $\|X\| \equiv l-NORM \coloneqq ( \sum_{i = 1}^{size(X)} x_i^l )^{(\frac{1}{l})}$
 - Julia: `norm(x)`
 - NumPy: `numpy.linalg.norm(x)`
 
@@ -22,7 +22,7 @@ Aka "scalar product" or "inner product".
 
 It has a relationship on how vectors are arranged relative to each other
 
-- Algebraic definition: $x \cdot y \equiv x' y := \sum_{i=1}^n x_i * y_i$
+- Algebraic definition: $x \cdot y \equiv x' y \coloneqq \sum_{i=1}^n {x_i * y_i}$
 - Geometric definition: $x \cdot y := \|x\| * \|y\| * cos(\theta)$ (where $\theta$ is the angle between the two vectors and $\|x\|$ is the 2-norm)
 - Julia: `dot(x,y)`
 - Numpy: `np.dot(x,y)`
