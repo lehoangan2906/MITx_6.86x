@@ -1,4 +1,4 @@
-$\newcommand\array[1]{\begin{bmatrix}#1\end{bmatrix}}$ [[MITx 6.86x Notes Index]](https://github.com/sylvaticus/MITx_6.86x)
+[[MITx 6.86x Notes Index]](https://github.com/sylvaticus/MITx_6.86x)
 
 #  Unit 00 - Course Overview, Homework 0, Project 0
 
